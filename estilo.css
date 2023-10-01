@@ -1,0 +1,45 @@
+h2, h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+}
+body{
+    background-color:rgb(220, 245, 245);
+    background-image: url(./calc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 1;
+}
+
+/* Estilos para o popup */
+.popup {
+    width: 600px;  /* Ajuste a largura desejada */
+    height: 500px; /* Ajuste a altura desejada */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    z-index: 2;
+}
+
+
+.d-grid {
+    display: flex;
+    align-items: center;     /* Centraliza verticalmente */
+    margin-top: 10%;
+}
